@@ -22,18 +22,20 @@ With this at hand, we were able use the necessary information that would guide L
 
 ### Campaign Goals and Pledges
 Using the data, we were able to establish some statistics for both Successful and Failed plays in the US to give Louise the most relevant data for her project:
-	Mean Goal/Pledged: `=AVERAGE('Successful US Kickstarters'!D:D)`
-	Median Goal/Pledged: `=MEDIAN('Successful US Kickstarters'!D:D)`
-	Standard Deviation: `=STDEV.P('Successful US Kickstarters'!D:D)`
-	Upper Quartile: `=QUARTILE.EXC('Successful US Kickstarters'!D:D, 3)`
-	Lower Quartile: `=QUARTILE.EXC('Successful US Kickstarters'!D:D, 1)`
-	InterQuartile Range: `=B7-B8`
+- Mean Goal/Pledged: `=AVERAGE('Successful US Kickstarters'!D:D)`
+- Median Goal/Pledged: `=MEDIAN('Successful US Kickstarters'!D:D)`
+- Standard Deviation: `=STDEV.P('Successful US Kickstarters'!D:D)`
+- Upper Quartile: `=QUARTILE.EXC('Successful US Kickstarters'!D:D, 3)`
+- Lower Quartile: `=QUARTILE.EXC('Successful US Kickstarters'!D:D, 1)`
+- InterQuartile Range: `=B7-B8`
+
 ![Relevant Statistics](https://github.com/jakatz87/kickstarter-analysis/blob/main/Resources/Statistics.png)
 
 **Conclusion**
 With this information, we could give Louise insight for her goal of $10,000.  Would that be a reasonable amount based on previous data and trends?  Based on a widely used statistical definition of an Outlier:  `>Q3+1.5*IQR` , her goal would not be an outlier in the data set.  
 
 We were also able to investigate success rates for comparable goal amounts:
+
 ![Outcomes with Data](https://github.com/jakatz87/kickstarter-analysis/blob/main/Resources/Outcomes%20v%20Goals%20with%20Data.png)
 
 **Conclusion**
@@ -43,9 +45,11 @@ For her goal, we can see there is about a 50% success rate. If she wants to adju
 Louise will need to know the work necessary to make her campaign successful.  She’ll need to know how many backers to pledge to the campaign and how much to ask from those backers. 
 
 From this chart, we can let Louise know there have been successful campaigns around $10,000 with as few as 12 backers and as many as 288.  She can also see there is no evident pattern or trajectory for success based on the number of backers:
+
 ![Backers per Goal](https://github.com/jakatz87/kickstarter-analysis/blob/main/Resources/Backers%20per%20Goal.png)
 
 From this chart, we can let Louise know successful campaigns with backers from 10 to 300 can have average donation amounts between $25 and $300.  She can see there is no evident pattern or trajectory here either.
+
 ![Average Donation](https://github.com/jakatz87/kickstarter-analysis/blob/main/Resources/Average%20Donations.png)
 
 **Conclusion**
@@ -54,6 +58,7 @@ Since there is no evident trajectory and this is Louise’s first Kickstarter ca
 ### Timeframes of Campaigns
 Whatever Louise decides to do with her goal and plan for her campaign, it will be important for  her to know when to launch it.  The previous two questions we raised didn’t seem to have a pattern to them, as important as it was to ask.  This question does, in fact, have a pattern to it.
 Consider the chart:
+
 ![Plays Outcomes](https://github.com/jakatz87/kickstarter-analysis/blob/main/Resources/Plays%20outcomes%20for%20analysis.png)
 
 **Conclusions**
