@@ -11,9 +11,9 @@ To make sense of the Kickstarter data, we needed to disaggregate what was given 
 We needed to make sure we were using information that would be most relevant to Louise.  Although there was plenty of data for the “Theater” category among the many other categories in the data set, we want to separate “Plays” from the other subcategories.  
 
 Other challenges included:
-      - calculating funding success rates `=ROUND(E2/D2*100,0)`
-      - calculating average donations `=IFERROR(ROUND(E2/L2,2),0)`
-      - converting the Unix timestamps to easily readable dates `=(((J2/60)/60)/24)+DATE(1970,1,1)`
+--calculating funding success rates `=ROUND(E2/D2*100,0)`
+--calculating average donations `=IFERROR(ROUND(E2/L2,2),0)`
+--converting the Unix timestamps to easily readable dates `=(((J2/60)/60)/24)+DATE(1970,1,1)`
 
 With this at hand, we were able use the necessary information that would guide Louise:
 - Campaign Goals and Pledges
