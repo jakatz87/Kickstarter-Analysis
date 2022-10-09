@@ -5,6 +5,7 @@ For this analysis, we have accessed information of over 4,000 Kickstarter campai
 
 ### Analysis and Challenges
 To make sense of the Kickstarter data, we needed to disaggregate what was given so we could clearly distinguish the category of campaigns we were investigating using the Text to Columns tool in Excel:
+
 ![New Row Headers](https://github.com/jakatz87/kickstarter-analysis/blob/main/Resources/Text_to_Columns.png)
 
 We needed to make sure we were using information that would be most relevant to Louise.  Although there was plenty of data for the “Theater” category among the many other categories in the data set, we want to separate “Plays” from the other subcategories.  
